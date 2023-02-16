@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.myproject.mindzbasetask.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.myproject.mindzbasetask.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/checkOutFragment"
+        android:name="com.myproject.mindzbasetask.ui.checkout.CheckOutFragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_check_out" />
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.myproject.mindzbasetask.ui.favourite.FavFragment"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.myproject.mindzbasetask.ui.search.SearchFragment"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_itemsDetailsFragment"
+            app:destination="@id/itemsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemsDetailsFragment"
+        android:name="com.myproject.mindzbasetask.ui.search.ItemsDetailsFragment"
+        android:label="fragment_items_details"
+        tools:layout="@layout/fragment_items_details" >
+        <argument
+            android:name="itemid"
+            app:argType="integer" />
+        <argument
+            android:name="itemname"
+            app:argType="string" />
+        <argument
+            android:name="itemprice"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_itemsDetailsFragment_to_checkOutFragmenr"
+            app:destination="@id/checkOutFragmenr" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkOutFragmenr"
+        android:name="com.myproject.mindzbasetask.ui.search.CheckOutFragmenr"
+        android:label="fragment_check_out_fragmenr"
+        tools:layout="@layout/fragment_check_out_fragmenr" />
+</navigation>

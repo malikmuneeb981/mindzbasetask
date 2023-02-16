@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/blackrounded.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/blackstroke.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/constrantbg.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/ic_bottomnavbg.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/ic_homenav.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/ic_searchnav.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/drawable/whitebgrounded.xml" value="0.2395" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/foodrvitem.xml" value="0.33" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/fragment_check_out.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/fragment_check_out_fragmenr.xml" value="0.22" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/fragment_home.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/fragment_items_details.xml" value="0.25" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/layout/fragment_search.xml" value="0.5" />
+        <entry key="..\:/Users/malik/AndroidStudioProjects/MindZBaseTask/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
